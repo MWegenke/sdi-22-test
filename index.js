@@ -66,12 +66,12 @@
 
 // console.log(temp)
 
-// function name() {
-//   console.log("win")
-// }
+function name() {
+  console.log("win")
+}
 
-// let names = () => console.log("woot")
+let names = () => console.log("woot")
 
 
-// name()
-// names()
+name()
+names()
