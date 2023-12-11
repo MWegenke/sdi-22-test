@@ -260,3 +260,23 @@
 
 // console.log(temp.map((x) => x *2 ))
 // console.log(temp)
+
+
+// HOF Chaining. (find, filter, reduce, map)
+
+// let garbage = [1,'h',4,6,null,'SDI22',56, 1137,'', true, 132]
+
+// let bestEver = garbage.filter(elm => typeof elm === 'string' && elm.charAt(0) === "S")
+
+// console.log(bestEver)
+
+// let total = garbage.filter(elm => typeof elm === 'number') // => [ 1, 4, 6, 56, 1137, 132 ]
+// .reduce((x, y) => x + y)
+
+// console.log(total)
+
+// let newTotal = garbage.filter(elm => typeof elm === 'number').map(element => element * 5)
+// console.log(newTotal)
+// console.log(garbage.map(x => console.log(x))) //returns array of undefined.
+
+
