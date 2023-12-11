@@ -199,7 +199,7 @@
 
 //Switch Statement
 
-const season = 'Fall';
+// const season = 'Fall';
 
 // switch (season) {
 //   case 'Summer':
