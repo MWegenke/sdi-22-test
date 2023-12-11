@@ -246,6 +246,18 @@ const season = 'Fall';
 
 
 
+// let temp = [1,2,3,4,5]
+
+// let doubled = temp.map((x) => x *2 )
 
 
+// console.log(temp.map(function (3) {
+//   return 3 * 2;
+// })) => [2,4,6]
+
+
+
+
+// console.log(temp.map((x) => x *2 ))
+// console.log(temp)
 
