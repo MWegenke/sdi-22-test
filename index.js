@@ -280,3 +280,16 @@
 // console.log(garbage.map(x => console.log(x))) //returns array of undefined.
 
 
+//Fundamentals III Workshop
+// function stringify(param){
+//   return `Here is my param ${params}`
+// }
+
+
+// function funTimes(params) {
+//   let outPut =  stringify(params)
+//   let id = 1
+//   let list = document.getElementById('todo-list')
+
+//   return [outPut, id, list]
+// }
