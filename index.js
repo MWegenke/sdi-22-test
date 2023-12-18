@@ -293,3 +293,31 @@
 
 //   return [outPut, id, list]
 // }
+
+//CLASSES
+
+// class superHero {
+//   constructor(alias, heroName, power){
+//     this.alias=alias;
+//     this.heroName = heroName;
+//     this.power = power;
+//     this.justiceLeague = false;
+//   }
+
+//   usePower(){
+//     console.log(`${this.heroName} used the power of ${this.power}`)
+//   }
+// }
+
+
+// let spiderMan = new superHero("Peter Parker", 'Spiderman', 'Creepy')
+
+// let ironMan = new superHero("Tony Stank", 'Ironman', "Money")
+
+// let myHeros = [spiderMan, ironMan]
+
+// let powers = []
+
+myHeros.map(hero => powers.push(hero.usePower))
+
+console.log(powers)
